@@ -1,0 +1,22 @@
+:local(.container) {
+    width: 100%;
+    max-width: 950px;
+    padding-right: 15px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menu{
+    border-bottom:0
+}
+  
+/* :local(.content) {
+    font-size: 15px;
+    text-align: center;
+} */
+
+::ng-deep .ant-layout-sider-trigger {
+    position: absolute;
+    top: 0;
+}
